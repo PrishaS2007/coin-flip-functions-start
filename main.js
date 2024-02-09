@@ -34,3 +34,30 @@ function btnHandler() {
   // Output Results
   outputEl.innerHTML = `<img src="img/${coin1}.png"> <img src="img/${coin2}.png"> <img src="img/${coin3}.png">`;
 }
+
+function flipCoin() {
+  let coin1;
+  if (Math.random() < 0.5) {
+    coin1 = "heads";
+  } else {
+    coin1 = "tails";
+  }
+
+  // Second Coin Flip
+  let coin2;
+  if (Math.random() < 0.5) {
+    coin2 = "heads";
+  } else {
+    coin2 = "tails";
+  }
+
+  // Third Coin Flip
+  let coin3;
+  if (Math.random() < 0.5) {
+    coin3 = "heads";
+  } else {
+    coin3 = "tails";
+  }
+ 
+  return 
+}
