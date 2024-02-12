@@ -27,3 +27,6 @@ function flipCoin() {
    return "tails";
   }
 }
+
+let coin = flipCoin();
+console.log(`You flipped ${coin}.`);
